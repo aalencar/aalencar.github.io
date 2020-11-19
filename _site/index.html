@@ -3,48 +3,75 @@
   <head>
     <title>Home</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/cc6463b94b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-149893872-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-149893872-1");
+    </script>
   </head>
   <body>
-      <div class="wrapper">
-            <nav>
+    <div class="header">
+      <span>Alexandre Alencar</span>
+      <nav>
 
     
         <a href="/" class="current">
             Home
         </a>
     
-        <a href="/whatiamdoing" >
-            What I am doing
-        </a>
-    
         <a href="/blog.html" >
-            Mind dump
+            Blog
         </a>
     
-        <a href="/lab" >
-            Lab
-        </a>
-    
-        <a href="/books" >
-            Books
+        <a href="/whatiamdoing" >
+            Now
         </a>
     
 </nav>
 
-            <div class="content">
-              <img src="assets/images/profile.jpg" />
-<div>
-  <h1>Hi folks</h1>
+    </div>
+
+    <div class="content">
+      <div class="home">
+  <img class="home-pic" src="assets/images/profile.jpg" />
+  <h1>Hi, I'm Alexandre Alencar </h1>
   <p>
-    I'm Alexandre Alencar, frontend developer based in Prague.
-    I love to build things, break and fix them and learn a lot along the way.
+    I'm passionate about turning ideas into reality and using code as my main tool to acomplish that.
   </p>
+  <p>
+    Currently working at <a href="https://kendaxa.com/en">Kendaxa</a>
+  </p>
+  <div class="external-links">
+    
+        <a href="item.link"><i class="fab fa-github"></i></a>
+    
+        <a href="item.link"><i class="fab fa-medium"></i></a>
+    
+        <a href="item.link"><i class="fab fa-linkedin"></i></a>
+    
+        <a href="item.link"><i class="fab fa-twitter"></i></a>
+    
+</div>
+
 </div>
 
 
 
-              <div class="push"></div>
-            </div>
-      </div>
+    </div>
+
+    <script src="/assets/js/index.js"></script>
   </body>
 </html>

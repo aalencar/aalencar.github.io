@@ -1,10 +1,7 @@
 - name: Home
   link: /
-- name: What I am doing
-  link: /whatiamdoing
-- name: Mind dump
+- name: Blog
   link: /blog.html
-- name: Lab
-  link: /lab
-- name: Books
-  link: /books
+- name: Now
+  link: /whatiamdoing
+
