@@ -1,0 +1,17 @@
+body { display: grid; grid-template-areas: "nav" "content"; margin: 0; background: #355c7d; color: rgba(255, 255, 255, 0.87); font-family: Helvetica, sans-serif; }
+
+a { color: #818181; text-decoration: none; font-weight: bolder; }
+
+img { border-radius: 16px; }
+
+nav { grid-area: nav; display: grid; grid-template-columns: repeat(5, 1fr); margin: 30px; justify-content: center; justify-items: center; background: #eee; padding: 30px; }
+
+.content { padding: 30px; grid-area: content; }
+
+.current { color: black; }
+
+footer { background: #eee; padding: 30px; grid-template-columns: repeat(4, 1fr); }
+
+footer, .push { height: 50px; }
+
+/*# sourceMappingURL=styles.css.map */

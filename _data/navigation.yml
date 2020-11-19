@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: What I am doing
+  link: /whatiamdoing
+- name: Mind dump
+  link: /blog.html
+- name: Lab
+  link: /lab
+- name: Books
+  link: /books
